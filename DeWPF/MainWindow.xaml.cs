@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -43,6 +44,7 @@ namespace DeWPF
             _lancers[_lancers.Count + 1] = new Lancer(piece, piece.Lancer());
             MonnaieLbl.Content = _lancers[_lancers.Count].Face.Nom;
 
+            Debug.Assert((string)MonnaieLbl.Content == "pile" || (string)MonnaieLbl.Content == "face");
             AfficherLancers();
         }
 
@@ -57,12 +59,37 @@ namespace DeWPF
         private void AfficherLancers()
         {
             string lancersStr = "";
-
+            int maxvalue = 0;
+            int comptede = 0;
+            int comptepiece = 0;
+            int comptePile = 0;
+            int compteFace = 0;
             foreach (KeyValuePair<int, Lancer> element in _lancers)
             {
                 lancersStr += $"Lancer {element.Key}: {element.Value.Objet.Nom} -> {element.Value.Face.Nom}\n";
+                if(element.Value.Objet.Nom == "Dé 6") 
+                { 
+                    comptede++;
+                    if (element.Value.Face.Valeur == element.Value.Objet.NbFaces)
+                    {
+                        maxvalue++;
+                    }
+                } 
+                else if(element.Value.Objet.Nom == "Pièce")
+                { 
+                    comptepiece++; 
+                    if(element.Value.Face.Nom == "pile") { comptePile++; } else { compteFace++; }
+                }
             }
-
+            //Si apres 10 lancer on a pas eu max ya peutetre un problème (le 10 peut etre changer)
+            if(comptede > 10)
+            {
+                Debug.Assert(maxvalue > 0);
+            }
+            if(comptepiece > 10)
+            {
+                Debug.Assert(comptePile > 0 && compteFace > 0);
+            }
             LancersTB.Text = lancersStr;
         }
     }
