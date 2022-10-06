@@ -3,7 +3,7 @@
 namespace DeWPF
 {
     // Un objet de hasard
-    public abstract class ObjetHasard : IObjetHasard
+    public class ObjetHasard : IObjetHasard
     {
         protected static readonly Random rnd = new Random();
 

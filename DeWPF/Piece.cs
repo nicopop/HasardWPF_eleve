@@ -1,7 +1,7 @@
 ﻿namespace DeWPF
 {
     // Une pièce de monnaie à deux faces
-    internal class Piece : ObjetHasard
+    public class Piece : ObjetHasard
     {
         public Piece() : base("Pièce", 2) { }
 
