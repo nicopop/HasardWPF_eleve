@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="DeWPF.De6">
     <Position X="2" Y="1" Width="1.5" />
     <TypeIdentifier>
@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DeWPF.Face" BaseTypeListCollapsed="true">
-    <Position X="8.25" Y="0.75" Width="1.5" />
+    <Position X="7.25" Y="3" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Face.cs</FileName>
@@ -16,14 +16,14 @@
     <Lollipop Position="0.623" />
   </Class>
   <Class Name="DeWPF.Lancer">
-    <Position X="10" Y="0.5" Width="1.5" />
+    <Position X="10" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Lancer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DeWPF.ObjetHasard">
-    <Position X="4.75" Y="0.5" Width="1.5" />
+    <Position X="3.75" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAEAIAAAAAAAAAAACAAAAAAAiAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>ObjetHasard.cs</FileName>
@@ -31,21 +31,21 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DeWPF.Piece">
-    <Position X="6.5" Y="1" Width="1.5" />
+    <Position X="7" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>Piece.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="DeWPF.IFace">
-    <Position X="8.25" Y="2.75" Width="1.5" />
+    <Position X="5.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IFace.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="DeWPF.IObjetHasard">
-    <Position X="10" Y="2.75" Width="1.5" />
+    <Position X="10.5" Y="3" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAIAAAAAAAAAAACAAAAAAAiAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IObjetHasard.cs</FileName>

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31410.357
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeWPF", "DeWPF\DeWPF.csproj", "{66E0D90B-CD20-4A23-B4D5-DA9A0914A343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteUnitaires", "TesteUnitaires\TesteUnitaires.csproj", "{17C9263D-20DC-4A5D-8CF0-401A34C37756}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{66E0D90B-CD20-4A23-B4D5-DA9A0914A343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66E0D90B-CD20-4A23-B4D5-DA9A0914A343}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66E0D90B-CD20-4A23-B4D5-DA9A0914A343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C9263D-20DC-4A5D-8CF0-401A34C37756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C9263D-20DC-4A5D-8CF0-401A34C37756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C9263D-20DC-4A5D-8CF0-401A34C37756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C9263D-20DC-4A5D-8CF0-401A34C37756}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

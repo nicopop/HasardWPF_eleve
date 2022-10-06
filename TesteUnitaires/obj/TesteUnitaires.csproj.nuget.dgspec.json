@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nicopop\\OneDrive - Cégep Limoilou\\Bloc 2\\FAH Développement informatique\\Examen 3\\HasardWPF_eleve\\TesteUnitaires\\TesteUnitaires.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nicopop\\OneDrive - Cégep Limoilou\\Bloc 2\\FAH Développement informatique\\Examen 3\\HasardWPF_eleve\\DeWPF\\DeWPF.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicopop\\OneDrive - Cégep Limoilou\\Bloc 2\\FAH Développement informatique\\Examen 3\\HasardWPF_eleve\\DeWPF\\DeWPF.csproj",
+        "projectName": "DeWPF",
+        "projectPath": "C:\\Users\\Nicopop\\OneDrive - Cégep Limoilou\\Bloc 2\\FAH Développement informatique\\Examen 3\\HasardWPF_eleve\\DeWPF\\DeWPF.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Nicopop\\OneDrive - Cégep Limoilou\\Bloc 2\\FAH Développement informatique\\Examen 3\\HasardWPF_eleve\\TesteUnitaires\\TesteUnitaires.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicopop\\OneDrive - Cégep Limoilou\\Bloc 2\\FAH Développement informatique\\Examen 3\\HasardWPF_eleve\\TesteUnitaires\\TesteUnitaires.csproj",
+        "projectName": "TesteUnitaires",
+        "projectPath": "C:\\Users\\Nicopop\\OneDrive - Cégep Limoilou\\Bloc 2\\FAH Développement informatique\\Examen 3\\HasardWPF_eleve\\TesteUnitaires\\TesteUnitaires.csproj",
+        "packagesPath": "C:\\Users\\Nicopop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicopop\\OneDrive - Cégep Limoilou\\Bloc 2\\FAH Développement informatique\\Examen 3\\HasardWPF_eleve\\TesteUnitaires\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nicopop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Nicopop\\OneDrive - Cégep Limoilou\\Bloc 2\\FAH Développement informatique\\Examen 3\\HasardWPF_eleve\\DeWPF\\DeWPF.csproj": {
+                "projectPath": "C:\\Users\\Nicopop\\OneDrive - Cégep Limoilou\\Bloc 2\\FAH Développement informatique\\Examen 3\\HasardWPF_eleve\\DeWPF\\DeWPF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
